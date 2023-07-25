@@ -1,0 +1,112 @@
+/* App.css */
+
+/* General styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  padding: 20px;
+}
+
+/* ProductList styles */
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+li {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 10px;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+li:hover {
+  transform: translateY(-5px);
+}
+
+img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+h2 {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+p {
+  font-size: 16px;
+  margin: 0;
+}
+
+/* ProductDetails styles */
+.ProductDetails {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.ProductDetails img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+.ProductDetails h2 {
+  font-size: 24px;
+  margin: 10px 0;
+}
+
+.ProductDetails p {
+  font-size: 18px;
+  margin: 5px 0;
+}
+
+.ProductDetails button {
+  font-size: 16px;
+  padding: 10px 20px;
+  border: none;
+  background-color: #007bff;
+  color: #fff;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.ProductDetails button:hover {
+  background-color: #0056b3;
+}
+
+/* Cart styles */
+h2 {
+  font-size: 24px;
+  margin: 20px 0;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  font-size: 18px;
+  margin: 5px 0;
+}

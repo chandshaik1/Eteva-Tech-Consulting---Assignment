@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "name": "Laptop",
+    "image": "https://img.freepik.com/free-vector/colorful-business-landing-page_52683-988.jpg?w=740&t=st=1690286854~exp=1690287454~hmac=44de951705771c178ba24bdc961a5cc3fa96ecdb8a27ec2f778118bcb4daecf3",
+    "price": 60000,
+    "quantity": 1
+  },
+  {
+    "id": 2,
+    "name": "Shoe",
+    "image": "https://img.freepik.com/free-photo/ice-coffee-with-whipped-cream_144627-3801.jpg?size=626&ext=jpg&uid=R106694536&ga=GA1.1.2147418565.1666417650&semt=sph",
+    "price": 2999,
+    "quantity": 1
+  },
+
+  {
+    "id": 3,
+    "name": "Watch",
+    "image": "https://img.freepik.com/free-vector/smart-watch-realistic-image-black_1284-11873.jpg?w=740&t=st=1690287052~exp=1690287652~hmac=39cc371edfb0b8ea06dbe7039d94917e4090af555db4f9980ce7a281597be273",
+    "price": 1999,
+    "quantity": 1
+  },
+
+  {
+    "id": 4,
+    "name": "TV",
+    "image": "https://img.freepik.com/premium-photo/tv-set-with-curved-screen-isolated_172429-992.jpg?w=740",
+    "price": 35099,
+    "quantity": 5
+  }
+]
